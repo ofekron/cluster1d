@@ -53,7 +53,7 @@ def connected_components(vertices,adj):
 
 def heatmap1d(items, levels=3,sortedenumarate=default_sortedenumarate,distances=default_distance):
     """
-    Based on clusters1d this function returns a tree with clustering levels s.t maximum distance is taken according to levels count
+    Based on cluster1d this function returns a tree with clustering levels s.t maximum distance is taken according to levels count
     For example, given levels=3 the tree levels would be :
     root - cluster full of all items
     clusters with the 2/3th of maximal distance
