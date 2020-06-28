@@ -66,7 +66,7 @@ def heatmap1d(items, levels=3,sortedenumarate=default_sortedenumarate,distances=
     :param sortedenumarate:
         either a function that takes items, enumarate them and sort the enumarate by item values - or precomputed such iterable
     :param distances:
-        either a function that takes sortedenumarate, and computes the values between them - or precomputed such iterable
+        either a function that takes sortedenumarate, and computes the distance between them - or precomputed such iterable
 
     :return:
         The heat map tree
@@ -160,7 +160,7 @@ def cluster1d(items, max_distance,sortedenumarate=default_sortedenumarate,distan
     :param sortedenumarate:
         either a function that takes items, enumarate them and sort the enumarate by item values - or precomputed such iterable
     :param distances:
-        either a function that takes sortedenumarate, and computes the values between them - or precomputed such iterable
+        either a function that takes sortedenumarate, and computes the distance between them - or precomputed such iterable
     :return:
         Cluster1D object, which is a list of Clusters
     """
